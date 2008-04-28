@@ -1,4 +1,4 @@
-require 'mongrel-proxy/version'
+require 'mongrel_proxy/version'
 
 AUTHOR = 'Graeme Mathieson'  # can also be an array of Authors
 EMAIL = "mathie@woss.name"
