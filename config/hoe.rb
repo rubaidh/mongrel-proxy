@@ -1,15 +1,19 @@
 require 'mongrel_proxy/version'
 
-AUTHOR = 'Graeme Mathieson'  # can also be an array of Authors
+AUTHOR = 'Graeme Mathieson'
 EMAIL = "mathie@woss.name"
-DESCRIPTION = "description of gem"
-GEM_NAME = 'mongrel-proxy' # what ppl will type to install your gem
-RUBYFORGE_PROJECT = 'mongrel-proxy' # The unix name for your project
+DESCRIPTION = <<-TEXT
+A cheap and dirty proxy implemented in Mongrel because, well, it seemed like a
+good idea at the time. I can almost guarantee it's not a great idea to use it
+in production. :-)
+TEXT
+GEM_NAME = 'mongrel-proxy'
+RUBYFORGE_PROJECT = 'rubaidh'
 HOMEPATH = "http://#{RUBYFORGE_PROJECT}.rubyforge.org"
 DOWNLOAD_PATH = "http://rubyforge.org/projects/#{RUBYFORGE_PROJECT}"
 EXTRA_DEPENDENCIES = [
-#  ['activesupport', '>= 1.3.1']
-]    # An array of rubygem dependencies [name, version]
+  ['mongrel', '>= 1.0.1']
+]
 
 @config_file = "~/.rubyforge/user-config.yml"
 @config = nil
