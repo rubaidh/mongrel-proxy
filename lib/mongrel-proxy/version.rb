@@ -1,4 +1,4 @@
-module Mongrel-proxy #:nodoc:
+module MongrelProxy #:nodoc:
   module VERSION #:nodoc:
     MAJOR = 0
     MINOR = 0

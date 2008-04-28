@@ -1,7 +1,6 @@
 require File.dirname(__FILE__) + '/test_helper.rb'
 
-class TestMongrel-proxy < Test::Unit::TestCase
-
+class TestMongrelProxy < Test::Unit::TestCase
   def setup
   end
   

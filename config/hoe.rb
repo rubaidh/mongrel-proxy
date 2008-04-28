@@ -34,7 +34,7 @@ end
 REV = nil
 # UNCOMMENT IF REQUIRED:
 # REV = YAML.load(`svn info`)['Revision']
-VERS = Mongrel-proxy::VERSION::STRING + (REV ? ".#{REV}" : "")
+VERS = MongrelProxy::VERSION::STRING + (REV ? ".#{REV}" : "")
 RDOC_OPTS = ['--quiet', '--title', 'mongrel-proxy documentation',
     "--opname", "index.html",
     "--line-numbers",
