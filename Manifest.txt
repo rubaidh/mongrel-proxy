@@ -1,13 +1,15 @@
 History.txt
 License.txt
 Manifest.txt
-PostInstall.txt
 README.txt
 Rakefile
+bin/mongrel_proxy
 config/hoe.rb
 config/requirements.rb
-lib/mongrel-proxy.rb
-lib/mongrel-proxy/version.rb
+lib/mongrel_proxy.rb
+lib/mongrel_proxy/command.rb
+lib/mongrel_proxy/proxy_plugin.rb
+lib/mongrel_proxy/version.rb
 script/console
 script/destroy
 script/generate
@@ -17,7 +19,7 @@ tasks/deployment.rake
 tasks/environment.rake
 tasks/website.rake
 test/test_helper.rb
-test/test_mongrel-proxy.rb
+test/test_mongrel_proxy.rb
 website/index.html
 website/index.txt
 website/javascripts/rounded_corners_lite.inc.js
